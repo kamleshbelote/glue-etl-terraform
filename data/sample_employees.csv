@@ -1,0 +1,21 @@
+id,name,email,age,department,salary,city
+1,John Doe,john.doe@example.com,25,Engineering,75000,New York
+2,Jane Smith,jane.smith@example.com,30,Marketing,65000,Los Angeles
+3,Bob Johnson,,28,Engineering,80000,Chicago
+,Alice Brown,alice.brown@example.com,35,Sales,55000,Houston
+5,Charlie Wilson,charlie.wilson@example.com,32,Engineering,85000,Phoenix
+6,Diana Prince,diana.prince@example.com,,Marketing,70000,Philadelphia
+7,Edward Norton,edward.norton@example.com,29,Sales,60000,San Antonio
+8,,frank.miller@example.com,33,Engineering,90000,San Diego
+9,Grace Lee,grace.lee@example.com,27,Marketing,62000,Dallas
+10,Henry Ford,henry.ford@example.com,31,Sales,,Detroit
+11,Isabel Garcia,isabel.garcia@example.com,26,Engineering,78000,San Jose
+,Karen White,,24,Marketing,58000,Austin
+13,Luis Rodriguez,luis.rodriguez@example.com,36,Sales,66000,Jacksonville
+14,Maria Gonzalez,maria.gonzalez@example.com,28,Engineering,82000,Fort Worth
+15,Nathan Drake,nathan.drake@example.com,30,Marketing,69000,Columbus
+16,Olivia Taylor,olivia.taylor@example.com,29,,72000,Charlotte
+17,Peter Parker,peter.parker@example.com,25,Engineering,76000,San Francisco
+18,Quinn Adams,quinn.adams@example.com,34,Sales,64000,Indianapolis
+19,,rachel.green@example.com,27,Marketing,61000,Seattle
+20,Samuel Jackson,samuel.jackson@example.com,32,Engineering,88000,Denver

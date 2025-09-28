@@ -1,0 +1,5 @@
+aws_region = "us-east-2"
+source_bucket_name = "kmb-glue-source-bucket-qa"
+destination_bucket_name = "kmb-glue-destination-bucket-qa"
+glue_job_name = "glue-etl-employee-job-qa"
+environment = "qa"
