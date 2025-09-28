@@ -60,11 +60,15 @@ resource "aws_iam_policy" "glue_s3_access_policy" {
       {
         Effect = "Allow"
         Action = [
-          "logs:CreateLogGroup",
           "logs:CreateLogStream",
           "logs:PutLogEvents"
         ]
-        Resource = "arn:aws:logs:*:*:/aws-glue/*"
+        Resource = [
+          "arn:aws:logs:*:*:log-group:/aws-glue/jobs/output*",
+          "arn:aws:logs:*:*:log-group:/aws-glue/jobs/error*",
+          "arn:aws:logs:*:*:log-group:/aws-glue/jobs/driver/${var.environment}-${var.glue_job_name}*",
+          "arn:aws:logs:*:*:log-group:/aws-glue/jobs/metrics/${var.environment}-${var.glue_job_name}*"
+        ]
       }
     ]
   })

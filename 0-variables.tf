@@ -76,3 +76,15 @@ variable "filter_column" {
   type        = string
   default     = "id"
 }
+
+variable "log_retention_days" {
+  description = "Number of days to retain CloudWatch logs"
+  type        = number
+  default     = 14
+}
+
+variable "error_log_retention_days" {
+  description = "Number of days to retain error logs (typically longer)"
+  type        = number
+  default     = 30
+}

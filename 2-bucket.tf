@@ -34,6 +34,7 @@ resource "aws_s3_object" "glue_script" {
   depends_on = [aws_s3_bucket.source_bucket]
 }
 
+
 # Optional: Upload sample data for testing
 resource "aws_s3_object" "sample_data" {
   bucket = aws_s3_bucket.source_bucket.id
@@ -42,7 +43,7 @@ resource "aws_s3_object" "sample_data" {
   etag   = filemd5("${path.module}/data/sample_employees.csv")
 
   tags = {
-    Purpose     = "Sample Employee Data"
+    Purpose     = "Sample Employee Data for ETL Testing"
     Environment = var.environment
   }
 
